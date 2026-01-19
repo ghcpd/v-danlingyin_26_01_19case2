@@ -1,0 +1,13 @@
+App Name: Simple Notes App
+
+Core Features:
+- Create a note with:
+  - Title
+  - Content
+- Display a list of notes
+- Delete a note
+
+Constraints:
+- Notes stored in memory only
+- No persistence after refresh
+- Single-page application
