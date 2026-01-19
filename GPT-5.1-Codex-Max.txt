@@ -1,0 +1,64 @@
+GPT-5.1-Codex-Max  ：：
+User: prompt
+You are a frontend engineer.
+Build a complete frontend application from scratch based on input_ui_spec.txt.
+This UI Case evaluates:
+- App initialization
+- Component structure
+- Basic CRUD interactions
+──────────────────────────────────── Technical Constraints ────────────────────────────────────
+- You may choose any frontend framework
+- The app MUST run locally after install
+- No backend or database allowed
+──────────────────────────────────── Responsibilities ────────────────────────────────────
+1.Implement all features defined in input_ui_spec.txt
+2.Generate a real, runnable project
+3.Organize code clearly
+4.Provide README with run instructions
+──────────────────────────────────── Strict Rules ────────────────────────────────────
+- Do NOT return only design descriptions
+- Do NOT omit configuration files
+- Do NOT implement features not in the spec
+
+GitHub Copilot: Optimizing tool selection...
+
+Created 3 todos
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/26.1/1.19/case2/GPT-5.1-Codex-Max/package.json)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/26.1/1.19/case2/GPT-5.1-Codex-Max/vite.config.js)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/26.1/1.19/case2/GPT-5.1-Codex-Max/index.html)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/26.1/1.19/case2/GPT-5.1-Codex-Max/public)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/26.1/1.19/case2/GPT-5.1-Codex-Max/public/favicon.svg)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/26.1/1.19/case2/GPT-5.1-Codex-Max/src)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/26.1/1.19/case2/GPT-5.1-Codex-Max/src/main.jsx)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/26.1/1.19/case2/GPT-5.1-Codex-Max/src/App.jsx)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/26.1/1.19/case2/GPT-5.1-Codex-Max/src/index.css)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/26.1/1.19/case2/GPT-5.1-Codex-Max/README.md)
+
+Completed: *Scaffold project structure* (1/3)
+
+Read [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/26.1/1.19/case2/GPT-5.1-Codex-Max/src/App.jsx)
+
+Read [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/26.1/1.19/case2/GPT-5.1-Codex-Max/src/index.css)
+
+- Implemented the in-memory note creation, listing, and deletion workflow with controlled form state, validation, and live counters in App.jsx.
+- Added bold, gradient styling, responsive layout, and component polish (empty state, ghost delete buttons, focus/hover states) in index.css.
+- Scaffolded runnable Vite + React project with config, entrypoint, and assets (package.json, vite.config.js, index.html, main.jsx, favicon.svg), plus usage docs in README.md.
+
+Run it locally:
+```
+npm install
+npm run dev
+```
+Vite will show the local URL (default http://localhost:5173). Build/preview options are also in the README.
+
+Made changes.
