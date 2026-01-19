@@ -1,0 +1,20 @@
+prompt
+You are a frontend engineer.
+Build a complete frontend application from scratch based on input_ui_spec.txt.
+This UI Case evaluates:
+- App initialization
+- Component structure
+- Basic CRUD interactions
+──────────────────────────────────── Technical Constraints ────────────────────────────────────
+- You may choose any frontend framework
+- The app MUST run locally after install
+- No backend or database allowed
+──────────────────────────────────── Responsibilities ────────────────────────────────────
+1.Implement all features defined in input_ui_spec.txt
+2.Generate a real, runnable project
+3.Organize code clearly
+4.Provide README with run instructions
+──────────────────────────────────── Strict Rules ────────────────────────────────────
+- Do NOT return only design descriptions
+- Do NOT omit configuration files
+- Do NOT implement features not in the spec
