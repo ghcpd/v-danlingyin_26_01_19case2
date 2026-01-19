@@ -1,0 +1,59 @@
+Claude-Opus-4.5  ：：
+User: prompt
+You are a frontend engineer.
+Build a complete frontend application from scratch based on input_ui_spec.txt.
+This UI Case evaluates:
+- App initialization
+- Component structure
+- Basic CRUD interactions
+──────────────────────────────────── Technical Constraints ────────────────────────────────────
+- You may choose any frontend framework
+- The app MUST run locally after install
+- No backend or database allowed
+──────────────────────────────────── Responsibilities ────────────────────────────────────
+1.Implement all features defined in input_ui_spec.txt
+2.Generate a real, runnable project
+3.Organize code clearly
+4.Provide README with run instructions
+──────────────────────────────────── Strict Rules ────────────────────────────────────
+- Do NOT return only design descriptions
+- Do NOT omit configuration files
+- Do NOT implement features not in the spec
+
+GitHub Copilot: I'll build a complete Simple Notes App using React with Vite. Let me create all the necessary files. 
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/26.1/1.19/case2/Claude-Opus-4.5/simple-notes-app/package.json)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/26.1/1.19/case2/Claude-Opus-4.5/simple-notes-app/vite.config.js)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/26.1/1.19/case2/Claude-Opus-4.5/simple-notes-app/index.html)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/26.1/1.19/case2/Claude-Opus-4.5/simple-notes-app/src/main.jsx)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/26.1/1.19/case2/Claude-Opus-4.5/simple-notes-app/src/App.jsx)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/26.1/1.19/case2/Claude-Opus-4.5/simple-notes-app/src/App.css)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/26.1/1.19/case2/Claude-Opus-4.5/simple-notes-app/src/components/NoteForm.jsx)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/26.1/1.19/case2/Claude-Opus-4.5/simple-notes-app/src/components/NoteList.jsx)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/26.1/1.19/case2/Claude-Opus-4.5/simple-notes-app/src/components/NoteItem.jsx)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/26.1/1.19/case2/Claude-Opus-4.5/simple-notes-app/README.md)
+
+Now let me install the dependencies and start the app: 
+
+Ran terminal command: cd "c:\Users\v-danlingyin\Documents\microsoft_projects_files\bugBash\26.1\1.19\case2\Claude-Opus-4.5\simple-notes-app" ; npm install
+
+Ran terminal command: npm run dev
+
+Let me run the command with the full path correctly: 
+
+Ran terminal command: Set-Location "c:\Users\v-danlingyin\Documents\microsoft_projects_files\bugBash\26.1\1.19\case2\Claude-Opus-4.5\simple-notes-app"; npm run dev
+
+The app is now running. Let me open it in the browser: 
+
+Opened Simple Browser at http://localhost:5173
+
+Made changes.
